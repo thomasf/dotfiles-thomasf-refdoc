@@ -1,0 +1,10 @@
+# lame
+        
+
+Compress to nice general audio quality that works with skipping on certain libraries::
+   $ lame --preset standard xxx.wav 
+
+PRESETS::
+--preset standard ,, high quality, generally transparent to most people on most music.
+--preset extreme ,, For extremely good hearing and similar equipment
+--preset insane ,, CBR 320kbps (highest quality possible from the --preset switches
