@@ -1,0 +1,51 @@
+# Emacs #
+
+
+draft of some kind...
+
+## Keys 
+
+# getting help
+C-h b            ,, list all key bindings
+C-h w <function> ,, list all key bindings for <function>
+C-h c <sequence> ,, list function bound to <sequence>
+C-h k <sequence> ,, show help for function bound  to <sequence>
+C-h i            ,, show help/tutorial (Use C-x k to close it)
+  C-s            ,, isearch next result (in whole manual)
+  l              ,, previous page
+C-x C-h          ,, list key bindings starting with C-x
+C-cd C-h          ,, list key bindings starting with C-c
+
+### moving around
+C-f / C-b       ,, forward / back one character
+M-f / M-b       ,, forward / back one word
+C-n / C-p       ,, next / previous line
+C-a / C-e       ,, beginning of / end of line
+M-a / M-e       ,, backward / forward sentence
+M-{ / M-}       ,, backward / forward paragraph
+M-< / M->       ,, beginning of / end of buffer
+C-M-f / C-M-b   ,, forward / back one "sexp"
+C-v / M-v       ,, page down / page up
+C-M-v / S-C-M-v ,, page down / page up in other window
+
+# select, cut, copy, paste
+C-x h ,, select all (select-whole-buffer)
+C-H-+ ,, expand region
+C-H-- ,, contract region
+  
+# search and replace
+C-s   ,, search (isearch-foward)
+  C-s ,, next match; use twice to repeat last search
+  C-r ,, previous match
+  RET ,, stop here
+  C-g ,, stop and go back to starting location
+  C-o ,, occur from isearch
+
+M-%   ,, find & replace (query-replace)
+C-M-% ,, regexp find & replace
+  y   ,, replace current match
+  n   ,, skip current match
+  !   ,, replace all
+  RET ,, stop here
+  C-g ,, stop and go back to starting location
+
